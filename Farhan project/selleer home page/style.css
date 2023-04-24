@@ -1,0 +1,99 @@
+body{
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+.hero{
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 55, 99);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:row;
+}
+
+
+img{
+  align-items: center;
+  margin-left: 10px;
+  width: 70px;
+
+}
+.user{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    border: solid rgba(255, 255, 255, 0.288);
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin: 10px;
+}
+.username{
+  display:flex;
+  justify-content: center;
+}
+.password{
+  display:flex;
+  justify-content: center;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+ul{
+  background-color: rgb(67, 65, 126);
+  color: white;
+}
+.tab-content{
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  margin-top: 5px;
+  height: 500px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding:10px 200px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 40px;
+  display: flex;
+  font-weight: bolder;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  padding:auto;
+}
+h1{
+  color: rgb(0, 0, 0);
+}
+p{
+  color: rgb(0, 0, 0);
+}
+.tab.active {
+  background-color: #24185cc5;
+}
+
+.tab:hover {
+  background-color: #0505313b;
+}
+
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
